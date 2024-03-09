@@ -23,6 +23,7 @@ export default {
         "poppins-regular": ['PoppinsRegular', 'sans-serif'],
         "poppins-medium": ['PoppinsMedium', 'sans-serif'],
         "poppins-semibold": ['PoppinsSemiBold', 'sans-serif'],
+        "opensans-regular": ['OpenSansRegular', 'sans-serif'],
       },
       colors: {
         'primary': "#F9F9FF",

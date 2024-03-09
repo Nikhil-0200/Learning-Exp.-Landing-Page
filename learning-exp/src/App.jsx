@@ -19,10 +19,9 @@ function App() {
         <section className='z-10'>
         <Hero/>
         </section>
-       
       </section>
 
-      <section className=' padding max-container'>
+      <section className='padding max-container'>
         <Services/>
       </section>
 
@@ -34,15 +33,15 @@ function App() {
         <Goal/>
       </section>
 
-      <section className=' padding'>
+      <section className=' padding padding-b padding-t max-container'>
         <Feedback/>
       </section>
 
-      <section className='border'>
+      <section className=' absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-container'>
         <ContactUs/>
       </section>
 
-      <section className='border padding-t padding-x'>
+      <section className=' padding-t padding-x max-container bg-footerDiv'>
         <Footer/>
       </section>
     </main>

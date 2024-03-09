@@ -4,10 +4,10 @@ import { dashboard } from "../assets/icons"
 
 const Services = () => {
   return (
-    <section className="flex flex-col items-center">
+    <section id="services" className="flex flex-col items-center gap-5">
       <div className="w-1/2 flex flex-col gap-3">
         <h1 className="font-poppins-medium text-[40px] text-center leading-tight">We provide various kind of learning modules for you</h1>
-        <h1 className="font-roboto-regular text-subHead text-center leading-tight">It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem</h1>
+        <h1 className="font-roboto-regular text-subHead text-center leading-normal">It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem</h1>
       </div>
 
       <div className="flex gap-16  justify-between items-center py-10">

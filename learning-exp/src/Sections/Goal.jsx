@@ -3,8 +3,8 @@ import { supervisecircle } from "../assets/icons"
 
 const Goal = () => {
   return (
-    <section className="flex flex-col items-center">
-      <div className="w-[79%] leading-tight flex flex-col items-center gap-4">
+    <section id="goal" className="flex flex-col items-center gap-5">
+      <div className="w-[79%] leading-tight flex flex-col items-center gap-8">
         <h1 className="font-poppins-medium text-black text-[35px] text-center">We Completed 1200+ Certification Program Successfully & Counting</h1>
         <h1 className="font-poppins-medium text-[#241B1B] w-[70%] text-center">At Learning Exp. We Are Committed To Providing You With A Superior Learning Experience That Empowers You To Achieve Your Goals. Join Us Today And Embark On A Journey Of Discovery, Growth, And Success.</h1>
       </div>

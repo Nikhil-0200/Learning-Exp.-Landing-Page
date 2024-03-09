@@ -4,7 +4,7 @@ import { star1 } from "../assets/icons"
 
 const Feedback = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 pb-10">
       <div className="flex justify-between items-center">
         <div className="w-[70%] flex flex-col gap-2">
           <h1 className="font-roboto-medium text-[40px]">Our Students Feedback</h1>

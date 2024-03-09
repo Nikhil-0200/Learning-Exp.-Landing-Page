@@ -4,12 +4,12 @@ import { arrowRightWhite } from "../assets/icons"
 import { heroVideImagesmall } from "../assets/images"
 const Hero = () => {
   return (
-    <section>
+    <section className="max-h-screen">
       <div>
         <Nav/>
       </div>
 
-      <section className="flex">
+      <section id="home" className="flex ">
         <div id="HeroText" className="flex flex-col gap-5 w-[60%]">
           <h1 className="font-roboto-medium text-[40px] text-[#FFFFFF] leading-tight">We Create Learning Experience With Excellent Technology.</h1>
 
