@@ -19,6 +19,8 @@ import pinterestIcon from "./pinterestIcon.svg";
 import smartphoneIcon from "./smartphone (1).svg";
 import supervisecircle from "./supervised_user_circle-24px (2).svg";
 import twitterIcone from "./twittericon.svg";
+import pauseIcon from './pauseIcon.png';
+import rectangle from './rectangle.svg';
 
 export {
   arrowRightBlack,
@@ -42,4 +44,6 @@ export {
   smartphoneIcon,
   supervisecircle,
   twitterIcone,
+  pauseIcon,
+  rectangle
 };

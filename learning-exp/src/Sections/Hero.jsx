@@ -1,10 +1,10 @@
 import Nav from "../Components/Nav"
 import { bookDemoBtn } from "../assets/icons"
 import { arrowRightWhite } from "../assets/icons"
-import { heroVideImagesmall } from "../assets/images"
+import Video from "../Components/Video"
 const Hero = () => {
   return (
-    <section className="max-h-screen">
+    <section>
       <div>
         <Nav/>
       </div>
@@ -24,8 +24,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div id="HeroVideo" className="w-[50%]">
-          <img src={heroVideImagesmall} alt="heroVideImagesmall" width={800} />
+        <div id="HeroVideo" className="w-[50%] relative">
+          <Video/>
         </div>
       </section>
     </section>

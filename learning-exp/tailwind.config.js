@@ -43,6 +43,8 @@ export default {
       },
       backgroundImage: {
         'hero': "url('assets/images/woman-in-blue-crew-neck-shirt-using-black-laptop-computer-3994051.png')",
+        'heroBg': "url('assets/images/heroBg')",
+        'rectangle': "url('assets/icons/rectangle.svg')"
       },
       screens: {
         "wide": "1440px"

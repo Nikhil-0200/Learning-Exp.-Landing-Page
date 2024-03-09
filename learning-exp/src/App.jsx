@@ -1,5 +1,4 @@
 import './App.css'
-import Nav from './Components/Nav'
 import ContactUs from './Sections/ContactUs'
 import Feedback from './Sections/Feedback'
 import Footer from './Sections/Footer'
@@ -15,8 +14,8 @@ function App() {
     <>
     <main className="relative">
      
-      <section id='hero' className=' padding max-container'>
-        <section className='z-10'>
+      <section id='hero' className=' padding max-container h-[100vh]'>
+        <section>
         <Hero/>
         </section>
       </section>

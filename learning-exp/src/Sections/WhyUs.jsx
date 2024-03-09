@@ -1,5 +1,7 @@
-import { heroVideImagesmall } from "../assets/images"
+
 import { getMoreBtn } from "../assets/icons"
+import Video from "../Components/Video"
+import { video2 } from "../assets/video"
 
 const WhyUs = () => {
   return (
@@ -10,9 +12,11 @@ const WhyUs = () => {
       </div>
 
 
-      <div className="w-full flex gap-8">
-      <div id="HeroVideo" className="w-[50%] ">
-          <img src={heroVideImagesmall} alt="heroVideImagesmall" width={800} />
+      <div className="w-full flex gap-8 ">
+      <div id="HeroVideo" className="w-[50%] relative">
+          <Video
+          customVideo={video2}
+          />
         </div>
 
         <div className="flex flex-col gap-6 pt-4 w-[50%]">

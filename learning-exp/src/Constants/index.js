@@ -1,9 +1,26 @@
+import {
+    video1,
+    video2
+} from '../assets/video/index';
+
+export const videoData = [
+    {
+        video1
+    },
+    {
+        video2
+    }
+]
+
+
 export const navLinks = [
     {href: "#home", label: "Home"},
     {href: "#services", label: "Services"},
     {href: "#whyUs", label: "WhyUs"},
     {href: "#goal", label: "Goals"},
 ]
+
+
 
 export const FooterData = [
     {
