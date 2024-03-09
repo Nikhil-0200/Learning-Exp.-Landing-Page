@@ -2,6 +2,7 @@ import { Logo } from "../assets/images"
 import Button from "./Button";
 import { navLinks } from "../Constants";
 const Nav = () => {
+
   return (
     <section className="padding-b flex justify-between items-center">
         <div className="flex font-roboto-medium">
@@ -11,7 +12,7 @@ const Nav = () => {
         <div className="text-[#BCBCBC] font-poppins-medium flex items-center gap-4">
           <ul className="flex gap-4">
             {navLinks.map((ele)=>(
-              <li key={ele.label}>
+              <li key={ele.label} id="navLinks">
                 <a href={ele.href}>{ele.label}</a>
               </li>
             ))}

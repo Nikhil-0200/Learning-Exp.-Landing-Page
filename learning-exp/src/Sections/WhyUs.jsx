@@ -13,9 +13,10 @@ const WhyUs = () => {
 
 
       <div className="w-full flex gap-8 ">
-      <div id="HeroVideo" className="w-[50%] relative">
+      <div id="HeroVideo" className="w-[50%] relative py-5">
           <Video
           customVideo={video2}
+          padding="8"
           />
         </div>
 

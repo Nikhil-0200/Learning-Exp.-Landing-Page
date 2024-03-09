@@ -100,3 +100,24 @@
   background-color: rgba(38, 43, 219, 0.4);
   z-index: -1;
 }
+
+#navLinks, explore{
+  transition: transform  0.3s ease-in-out
+}
+
+#navLinks:hover{
+  scale: 1.1;
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: yellow;
+
+}
+
+#explore:hover{
+  scale: 1.1;
+  color: yellow;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: yellow;
+}

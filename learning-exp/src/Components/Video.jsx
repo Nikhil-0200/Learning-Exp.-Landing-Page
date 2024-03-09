@@ -4,7 +4,7 @@ import { useState } from "react";
 import { pauseIcon } from "../assets/icons";
 import { video1 } from "../assets/video/index";
 
-const Video = ({ customVideo }) => {
+const Video = ({ customVideo, padding = "4" }) => {
   const [on, setOn] = useState(false);
 
   const handleClick = () => {
@@ -27,7 +27,7 @@ const Video = ({ customVideo }) => {
         </div>
       )}
       {on && (
-        <div className="bg-rectangle bg-cover bg-center relative p-4">
+        <div className={`bg-rectangle bg-cover bg-center relative p-${padding}`}>
           {customVideo ? (
             <video
               className="rounded-xl"

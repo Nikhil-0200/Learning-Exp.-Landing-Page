@@ -15,9 +15,9 @@ export const videoData = [
 
 export const navLinks = [
     {href: "#home", label: "Home"},
-    {href: "#services", label: "Services"},
-    {href: "#whyUs", label: "WhyUs"},
-    {href: "#goal", label: "Goals"},
+    {href: "#services", label: "Services Us"},
+    {href: "#whyUs", label: "Why Us"},
+    {href: "#goal", label: "Our Goals"},
 ]
 
 

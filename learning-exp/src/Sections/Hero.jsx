@@ -19,8 +19,8 @@ const Hero = () => {
             <div>
               <img src={bookDemoBtn} alt="Book Demo Class Button" width={180} />
             </div>
-
-            <h1 className="flex font-roboto-medium items-center gap-2 text-[#FFFFFF]">Explore More <span><img src={arrowRightWhite} alt="Right Arrow White" /></span></h1>
+            
+            <h1 className="flex font-roboto-medium items-center gap-2 text-[#FFFFFF]" id="explore">Explore More <span><img id="explore" src={arrowRightWhite} alt="Right Arrow White" /></span></h1>
           </div>
         </div>
 
