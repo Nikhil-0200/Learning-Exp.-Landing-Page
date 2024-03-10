@@ -4,7 +4,7 @@ import { navLinks } from "../Constants";
 const Nav = () => {
 
   return (
-    <section className="padding-b flex justify-between items-center">
+    <section className="pb-20 flex justify-between items-center">
         <div className="flex font-roboto-medium">
           <span ><img src={Logo} alt="LogoStrip" width={200} /></span>
         </div>

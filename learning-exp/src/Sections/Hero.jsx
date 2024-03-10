@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     <section>
      
-
       <section id="home" className="flex max-lg:flex-col md:items-end gap-5">
         <div id="HeroText" className="flex flex-col gap-5 lg:w-[60%]">
           <h1 className="font-roboto-medium text-3xl lg:text-[40px] text-[#FFFFFF] leading-tight">We Create Learning Experience With Excellent Technology.</h1>
