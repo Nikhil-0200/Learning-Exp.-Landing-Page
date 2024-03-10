@@ -5,13 +5,13 @@ import { dashboard } from "../assets/icons"
 const Services = () => {
   return (
     <section id="services" className="flex flex-col items-center gap-5">
-      <div className="w-1/2 flex flex-col gap-3">
-        <h1 className="font-poppins-medium text-[40px] text-center leading-tight">We provide various kind of learning modules for you</h1>
+      <div className="lg:w-1/2 flex flex-col gap-3">
+        <h1 className="font-poppins-medium max-sm:text-3xl text-[40px] text-center leading-tight">We provide various kind of learning modules for you</h1>
         <h1 className="font-roboto-regular text-subHead text-center leading-normal">It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem</h1>
       </div>
 
-      <div className="flex gap-16  justify-between items-center py-10">
-        <div className="w-[250px] h-[300px] flex flex-col py-10 justify-center px-5 items-center rounded-lg shadow-cardShadow gap-3">
+      <div className="flex gap-16 justify-between items-center py-10 max-lg:flex-col">
+        <div className="lg:w-[250px] lg:h-[300px] flex flex-col py-10 justify-center px-5 items-center rounded-lg shadow-cardShadow gap-3">
           <div>
             <img src={smartphoneIcon} alt="smartphoneIcon" width={150}/>
           </div>
@@ -21,7 +21,7 @@ const Services = () => {
           </div>  
         </div>
 
-        <div className="w-[320px] h-[350px] flex flex-col py-6 px-5 items-center bg-[#FAF8E4] rounded-lg justify-center cardShadow2 gap-3">
+        <div className="lg:w-[320px] lg:h-[350px] flex flex-col py-6 px-5 items-center bg-[#FAF8E4] rounded-lg justify-center cardShadow2 gap-3">
           <div>
             <img src={dashboard} alt="smartphoneIcon" width={150}/>
           </div>
@@ -31,7 +31,7 @@ const Services = () => {
           </div>  
         </div>
 
-        <div className="w-[250px] h-[300px] flex flex-col py-6 px-10 items-center rounded-lg shadow-cardShadow gap-3">
+        <div className="lg:w-[250px] lg:h-[300px] flex flex-col py-6 px-10 items-center rounded-lg shadow-cardShadow gap-3">
           <div>
             <img src={layoutIcon} alt="smartphoneIcon" width={150}/>
           </div>

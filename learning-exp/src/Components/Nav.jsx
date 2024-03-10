@@ -9,7 +9,7 @@ const Nav = () => {
           <span ><img src={Logo} alt="LogoStrip" width={200} /></span>
         </div>
 
-        <div className="text-[#BCBCBC] font-poppins-medium flex items-center gap-4">
+        <div className="text-[#BCBCBC] font-poppins-medium flex items-center gap-4 max-lg:hidden">
           <ul className="flex gap-4">
             {navLinks.map((ele)=>(
               <li key={ele.label} id="navLinks">

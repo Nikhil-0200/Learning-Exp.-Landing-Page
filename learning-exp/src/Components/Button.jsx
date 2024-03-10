@@ -3,7 +3,7 @@ const Button = (props) => {
 
   return (
     <button
-      className={`flex items-center justify-center px-4 py-3 font-poppins-medium text-md leading-none border rounded-full ${
+      className={`flex items-center justify-center px-4 py-3 font-poppins-medium text-md leading-none border rounded-full max-sm:hidden ${
         props.backgroundColor
           ? `${props.backgroundColor} ${props.borderColor} ${props.textColor} ${props.textSize} ${props.width} `
           : "bg-[#FFEC05] border text-black"
