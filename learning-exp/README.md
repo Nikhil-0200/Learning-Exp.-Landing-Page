@@ -1,8 +1,48 @@
-# React + Vite
+# Learning Exp. Landing Page Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Learning Exp. Landing Page Replica project!
 
-Currently, two official plugins are available:
+## Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The live application can be accessed at [Learning Exp. Landing Page](https://learning-exp-nikhil.netlify.app/).
+
+## Project Overview
+
+- **Repository Link:** [Learning Exp. Landing Page Repository](https://github.com/Nikhil-0200/Learning-Exp.-Landing-Page/tree/main/learning-exp)
+- **Started On:** 09-03-2024
+- **Completed On:** 10-03-2024
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+
+## Instructions
+
+### Setting Up the Project
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Nikhil-0200/Learning-Exp.-Landing-Page.git
+
+2. Navigate to the project directory:
+   
+  cd Learning-Exp.-Landing-Page/learning-exp
+
+3. Install dependencies:
+
+   npm install
+
+4. Running the Project
+   
+To run the project locally, use the following command:
+
+npm run dev
+
+## Project Details
+
+- **Responsive Design:** Fully responsive across various devices.
+- **Functionality:** All components are functional, replicating the provided design.
+
+
