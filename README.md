@@ -40,8 +40,6 @@ To run the project locally, use the following command:
 
 npm run dev
 
-This will start the development server, and you can view the Learning Exp. Landing Page replica by navigating to http://localhost:3000 in your web browser.
-
 ## Project Details
 
 - **Responsive Design:** Fully responsive across various devices.
