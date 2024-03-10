@@ -28,16 +28,19 @@ The live application can be accessed at [Learning Exp. Landing Page](https://lea
 
 2. Navigate to the project directory:
    
+   ```bash
   cd Learning-Exp.-Landing-Page/learning-exp
 
 3. Install dependencies:
 
+```bash
    npm install
 
 4. Running the Project
    
 To run the project locally, use the following command:
 
+```bash
 npm run dev
 
 This will start the development server, and you can view the Learning Exp. Landing Page replica by navigating to http://localhost:3000 in your web browser.
