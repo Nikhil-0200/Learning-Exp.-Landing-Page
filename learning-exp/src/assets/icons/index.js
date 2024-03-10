@@ -21,6 +21,7 @@ import supervisecircle from "./supervised_user_circle-24px (2).svg";
 import twitterIcone from "./twittericon.svg";
 import pauseIcon from './pauseIcon.png';
 import rectangle from './rectangle.svg';
+import Group1 from './Group 1.svg';
 
 export {
   arrowRightBlack,
@@ -45,5 +46,6 @@ export {
   supervisecircle,
   twitterIcone,
   pauseIcon,
-  rectangle
+  rectangle,
+  Group1
 };
